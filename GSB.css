@@ -1,0 +1,88 @@
+/*Définit l'arrière plan de la page de connexion*/
+body{
+	background-image: url("./images/Arriere_plan.jpg");
+	-webkit-background-size : 125%;
+	-moz-background-size : 125%;
+	background-size : 125%;
+}
+h1{
+	text-align : center;
+	border-radius: 20px/10px;
+	border-color : black;
+	border-style : solid;
+
+}
+
+div#page_login{
+	width : 350px;
+	height : 350px;
+	border-radius: 20px/10px;
+	border-color : black;
+	border-style : solid;
+	text-align : center;	
+	box-shadow: 6px 6px 6px #110A26;
+	text-shadow: 2px 2px 4px olive;
+	margin-left: 35%;
+	padding : 50px;
+	background: transparent;
+
+}
+input[type="password"], input[type="text"]{
+	border: none;
+	border-bottom: 1px solid #E58963;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	text-align : left;
+}
+section{
+	text-align :justify;
+}
+h2{
+	margin-top: 100px;
+	text-align:center;
+	background : #95E7E9;
+}
+
+h3{
+	text-align:center;
+	font-size:17px;
+	font-family: calibri;
+}
+
+footer{
+	border-width: 2px;
+	border-style:solid;
+	border-color:black;
+}
+
+header{
+	background-color : white;
+}
+*{
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+div#bouton1{
+	height: 75%;
+	width: 75%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div#login{
+	display: flex;
+	justify-content: right;
+	align-items: right;
+	margin-left: 90%;
+}
+
+div#fiche_frais{
+	display: flex;
+	justify-content: right;
+	align-items: right;
+	margin-left: 0%;
+}
